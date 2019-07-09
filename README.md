@@ -20,3 +20,19 @@ Zhiting Hu, Xuezhe Ma, Zhengzhong Liu, Eduard Hovy, Eric P. Xing, ACL 2016
   * run `run.sh`
 
   * Average performance (accuracy) is around `q:0.893, p:0.887` (randomness comes from GPU parallelization)
+
+## Updates ##
+
+Dependency updated:
+
+Python = 2.7
+
+Theano = 1.0.4
+Uses PyGpu: set device=gpu -> device=cuda
+downsample routine changed
+conv2d routine changed
+
+NumPy = 1.15 
+(1.16 causes problem)
+
+
